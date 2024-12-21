@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:36
+-keep class anon4you.github.io.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class anon4you.github.io.MainActivity { <init>(...); }
+
+# onClick res/layout/home.xml #generated:70
+-keepclassmembers class * { *** addkey(...); }
+
+# onClick res/layout/home.xml #generated:52
+-keepclassmembers class * { *** addrepo(...); }
+
+# onClick res/layout/home.xml #generated:34
+-keepclassmembers class * { *** clickgithub(...); }
+
