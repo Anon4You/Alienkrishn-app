@@ -1,6 +1,6 @@
-# view AndroidManifest.xml #generated:21
+# view AndroidManifest.xml #generated:18
 -keep class com.alienkrishn.repohelper.MainActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:36
+# view AndroidManifest.xml #generated:33
 -keep class com.alienkrishn.repohelper.ToolsActivity { <init>(...); }
 

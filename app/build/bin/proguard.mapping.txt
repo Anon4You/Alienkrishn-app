@@ -1,0 +1,20 @@
+com.alienkrishn.repohelper.MainActivity -> com.alienkrishn.repohelper.MainActivity:
+    android.content.ClipboardManager clipboard -> a
+    27:52:void onCreate(android.os.Bundle) -> onCreate
+    67:69:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    74:95:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    100:101:void copyToClipboard(java.lang.String) -> a
+    void access$1000002(com.alienkrishn.repohelper.MainActivity,java.lang.String) -> a
+    106:108:void openUrl(java.lang.String) -> b
+    110:110:void <init>() -> <init>
+com.alienkrishn.repohelper.MainActivity$100000000 -> com.alienkrishn.repohelper.a:
+    com.alienkrishn.repohelper.MainActivity this$0 -> a
+    void <init>(com.alienkrishn.repohelper.MainActivity) -> <init>
+    55:58:void onClick(android.view.View) -> onClick
+com.alienkrishn.repohelper.ToolsActivity -> com.alienkrishn.repohelper.ToolsActivity:
+    android.content.ClipboardManager clipboard -> a
+    17:24:void onCreate(android.os.Bundle) -> onCreate
+    28:356:void onToolClick(android.view.View) -> onToolClick
+    362:363:void copyToClipboard(java.lang.String) -> a
+    368:372:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    373:373:void <init>() -> <init>
