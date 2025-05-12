@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        UpdateChecker.checkForUpdate(this);
+        
 
         clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
 
