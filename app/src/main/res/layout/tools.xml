@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 🔍 Reconnaissance & Scanning -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔍 RECONNAISSANCE SCANNING"
+            android:textColor="#FF5722"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <Button android:id="@+id/btn_nuclei" style="@style/ToolButton" android:text="nuclei - Vulnerability scanner (5000+ templates)"/>
+        <Button android:id="@+id/btn_httpx" style="@style/ToolButton" android:text="httpx - Advanced HTTP toolkit"/>
+        <Button android:id="@+id/btn_subfinder" style="@style/ToolButton" android:text="subfinder - Subdomain discovery"/>
+        <Button android:id="@+id/btn_naabu" style="@style/ToolButton" android:text="naabu - Port scanner"/>
+        <Button android:id="@+id/btn_pandora" style="@style/ToolButton" android:text="pandora - Web vulnerability scanner"/>
+        <Button android:id="@+id/btn_katana" style="@style/ToolButton" android:text="katana - Crawling framework"/>
+        <Button android:id="@+id/btn_fscan" style="@style/ToolButton" android:text="fscan - Network scanning"/>
+
+        <!-- 📱 Mobile Development -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📱 MOBILE DEVELOPMENT"
+            android:textColor="#4CAF50"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/btn_android_sdk" style="@style/ToolButton" android:text="android-sdk - Android dev toolkit"/>
+        <Button android:id="@+id/btn_frida" style="@style/ToolButton" android:text="frida - App analysis"/>
+
+        <!-- 🤖 AI & Productivity -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🤖 AI  PRODUCTIVITY"
+            android:textColor="#9C27B0"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/btn_termux_ai" style="@style/ToolButton" android:text="termux-ai - AI assistant"/>
+        <Button android:id="@+id/btn_termux_media_downloader" style="@style/ToolButton" android:text="termux-media-downloader - Media downloader"/>
+
+        <!-- 🔍 Information Gathering -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔍 INFORMATION GATHERING"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/btn_sherlock" style="@style/ToolButton" android:text="sherlock - Find social media accounts"/>
+        <Button android:id="@+id/btn_holehe" style="@style/ToolButton" android:text="holehe - Email account checker"/>
+        <Button android:id="@+id/btn_byakugan" style="@style/ToolButton" android:text="byakugan - Location tracker"/>
+        <Button android:id="@+id/btn_hound" style="@style/ToolButton" android:text="hound - GPS info gathering"/>
+        <Button android:id="@+id/btn_ipinfo" style="@style/ToolButton" android:text="ipinfo - IP intelligence"/>
+        <Button android:id="@+id/btn_iplookup" style="@style/ToolButton" android:text="iplookup - IP geolocation"/>
+        <Button android:id="@+id/btn_phoneinfo" style="@style/ToolButton" android:text="phoneinfo - Phone number intel"/>
+        <Button android:id="@+id/btn_redhawk" style="@style/ToolButton" android:text="redhawk - OSINT framework"/>
+        <Button android:id="@+id/btn_webinfo" style="@style/ToolButton" android:text="webinfo - Website metadata"/>
+        <Button android:id="@+id/btn_locateme" style="@style/ToolButton" android:text="locateme - Device tracker"/>
+
+        <!-- 🔐 Password Tools -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔐 PASSWORD TOOLS"
+            android:textColor="#FF9800"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/btn_cupp" style="@style/ToolButton" android:text="cupp - Wordlist generator"/>
+        <Button android:id="@+id/btn_hashcat" style="@style/ToolButton" android:text="hashcat - Password recovery"/>
+        <Button android:id="@+id/btn_john" style="@style/ToolButton" android:text="john - Password cracker"/>
+        <Button android:id="@+id/btn_thc_hydra" style="@style/ToolButton" android:text="thc-hydra - Login cracker"/>
+
+        <!-- 🌐 Web Security -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌐 WEB SECURITY"
+            android:textColor="#F44336"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/btn_afrog" style="@style/ToolButton" android:text="afrog - Web vuln scanner"/>
+        <Button android:id="@+id/btn_burpsuite" style="@style/ToolButton" android:text="burpsuite - Web scanner"/>
+        <Button android:id="@+id/btn_burpsuite_pro" style="@style/ToolButton" android:text="burpsuite-pro - Pro web scanner"/>
+        <Button android:id="@+id/btn_hatcloud" style="@style/ToolButton" android:text="hatcloud - CloudFlare bypass"/>
+        <Button android:id="@+id/btn_nikto" style="@style/ToolButton" android:text="nikto - Web server scanner"/>
+        <Button android:id="@+id/btn_evilginx" style="@style/ToolButton" android:text="evilginx - Phishing framework"/>
+        <Button android:id="@+id/btn_gophish" style="@style/ToolButton" android:text="gophish - Phishing toolkit"/>
+        <Button android:id="@+id/btn_sqlmap" style="@style/ToolButton" android:text="sqlmap - SQL injection"/>
+        <Button android:id="@+id/btn_sqlscan" style="@style/ToolButton" android:text="sqlscan - SQL vuln scanner"/>
+        <Button android:id="@+id/btn_zaproxy" style="@style/ToolButton" android:text="zaproxy - OWASP ZAP scanner"/>
+        <Button android:id="@+id/btn_websploit" style="@style/ToolButton" android:text="websploit - Web exploitation"/>
+
+        <!-- 📱 Mobile Security -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📱 MOBILE SECURITY"
+            android:textColor="#673AB7"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/btn_androdos" style="@style/ToolButton" android:text="androdos - Android stress test"/>
+        <Button android:id="@+id/btn_androvirus" style="@style/ToolButton" android:text="androvirus - Test viruses"/>
+        <Button android:id="@+id/btn_apkeditor" style="@style/ToolButton" android:text="apkeditor - APK modifier"/>
+        <Button android:id="@+id/btn_apktool" style="@style/ToolButton" android:text="apktool - APK reverse engineering"/>
+        <Button android:id="@+id/btn_blutter" style="@style/ToolButton" android:text="blutter - Flutter app analyzer"/>
+        <Button android:id="@+id/btn_rkpairip" style="@style/ToolButton" android:text="rkpairip - APK patcher"/>
+
+        <!-- 🎭 Social Engineering -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎭 SOCIAL ENGINEERING"
+            android:textColor="#E91E63"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/btn_beef" style="@style/ToolButton" android:text="beef - Browser Exploitation"/>
+        <Button android:id="@+id/btn_instajack" style="@style/ToolButton" android:text="instajack - Instagram toolkit"/>
+        <Button android:id="@+id/btn_setoolkit" style="@style/ToolButton" android:text="setoolkit - Social-Engineer Toolkit"/>
+        <Button android:id="@+id/btn_snatcher" style="@style/ToolButton" android:text="snatcher - Camera phishing"/>
+        <Button android:id="@+id/btn_the_theif" style="@style/ToolButton" android:text="the-theif - Cookie stealer"/>
+        <Button android:id="@+id/btn_venom" style="@style/ToolButton" android:text="venom - Phishing framework"/>
+        <Button android:id="@+id/btn_weeman" style="@style/ToolButton" android:text="weeman - Lightweight phishing"/>
+
+        <!-- ⚡ System Tools -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚡ SYSTEM TOOLS"
+            android:textColor="#009688"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/btn_alienkrishn" style="@style/ToolButton" android:text="alienkrishn - Main repo package"/>
+        <Button android:id="@+id/btn_enctool" style="@style/ToolButton" android:text="enctool - Script obfuscation"/>
+        <Button android:id="@+id/btn_ip_changer" style="@style/ToolButton" android:text="ip-changer - IP rotation"/>
+        <Button android:id="@+id/btn_termux_desktop" style="@style/ToolButton" android:text="termux-desktop - Desktop environment"/>
+        <Button android:id="@+id/btn_termux_penv" style="@style/ToolButton" android:text="termux-penv - Chroot container"/>
+
+        <!-- 🚨 Attack Tools -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚨 ATTACK TOOLS"
+            android:textColor="#795548"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/btn_darksploit" style="@style/ToolButton" android:text="darksploit-framework - Pentesting"/>
+        <Button android:id="@+id/btn_metasploit" style="@style/ToolButton" android:text="metasploit-framework - Exploit framework"/>
+        <Button android:id="@+id/btn_powerdos" style="@style/ToolButton" android:text="powerdos - DoS toolkit"/>
+        <Button android:id="@+id/btn_slowhttptest" style="@style/ToolButton" android:text="slowhttptest - Slow HTTP DoS"/>
+        <Button android:id="@+id/btn_spurt" style="@style/ToolButton" android:text="spurt - DDoS script"/>
+        <Button android:id="@+id/btn_termsploit" style="@style/ToolButton" android:text="termsploit - Termux exploits"/>
+
+        <!-- 🛡️ Defensive Tools -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🛡️ DEFENSIVE TOOLS"
+            android:textColor="#3F51B5"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/btn_5luser" style="@style/ToolButton" android:text="5luser - Find unused usernames"/>
+        <Button android:id="@+id/btn_blackhat" style="@style/ToolButton" android:text="blackhat - Hacking tutorials"/>
+        <Button android:id="@+id/btn_bitb" style="@style/ToolButton" android:text="bitb-framework - Browser attacks"/>
+        <Button android:id="@+id/btn_cctvip" style="@style/ToolButton" android:text="cctvip - CCTV IP database"/>
+        <Button android:id="@+id/btn_local2onion" style="@style/ToolButton" android:text="local2onion - Tor hidden services"/>
+        <Button android:id="@+id/btn_maskme" style="@style/ToolButton" android:text="maskme - URL masking"/>
+        <Button android:id="@+id/btn_shorturl" style="@style/ToolButton" android:text="shorturl - URL shortener"/>
+
+        <!-- 🖥️ Miscellaneous -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🖥️ MISCELLANEOUS"
+            android:textColor="#607D8B"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/btn_nethunter" style="@style/ToolButton" android:text="nethunter-cli - Kali NetHunter"/>
+        <Button android:id="@+id/btn_parrot" style="@style/ToolButton" android:text="parrot - Security OS"/>
+        <Button android:id="@+id/btn_random_banner" style="@style/ToolButton" android:text="random-banner - ASCII art"/>
+        <Button android:id="@+id/btn_spider" style="@style/ToolButton" android:text="spider - Telegram reporter"/>
+        <Button android:id="@+id/btn_term_helper" style="@style/ToolButton" android:text="term-helper - Linux cheatsheet"/>
+        <Button android:id="@+id/btn_webserver" style="@style/ToolButton" android:text="webserver - Localhost exposure"/>
+
+        <!-- 📊 Data Analysis -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 DATA ANALYSIS"
+            android:textColor="#795548"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/btn_pandas" style="@style/ToolButton" android:text="python-pandas - Data analysis"/>
+
+        <!-- Footer Space -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+</ScrollView>
