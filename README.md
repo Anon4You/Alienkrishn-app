@@ -27,7 +27,7 @@ The official Android companion app for the AlienKrishn Termux repository, provid
 
 ## 🚀 Installation
 
-1. Download the latest APK from [Releases](https://github.com/Anon4You/alienkrishn/releases)
+1. Download the latest APK from [Releases](https://github.com/Anon4You/Alienkrishn-app/releases)
 2. Install on your Android device
 3. Open Termux and grant necessary permissions
 
