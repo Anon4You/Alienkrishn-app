@@ -6,8 +6,6 @@
 
 The official Android companion app for the AlienKrishn Termux repository, providing one-click access to 70+ security and hacking tools.
 
-![App Screenshot](https://i.imgur.com/example.png) <!-- Replace with actual screenshot -->
-
 ## ✨ Features
 
 - **One-Click Repository Setup**
